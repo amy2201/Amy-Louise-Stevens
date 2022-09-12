@@ -1,33 +1,48 @@
-body {
-		background-color: #dee2ff;
-		font-family: Georgia, serif;
+	body {
+		background-color: #E4C461;
+		font-family: "Open Sans";
 		line-height: 1.5;
+		margin: 60px;
 	}
 	section, .highlight {
-		background-color: #feeafa;
-		width: 1800px;
+		background-color: #FFFFFF;
 	}
 	
 	p, #pdiv {
-		color: #8e9aaf;
+		background-color: #FFFFFF;
+		color: #54595F;
 		font-size: 20px;
-		width: 1800px;
 		text-align: left;
+		margin: 20px;
 	}
 	
 			
 	h1 {
-		color: #8e9aaf;
+		color: #54595F;
 		font-size: 30px;
 		text-align: center;
 	}
 	
 	h2 {
-		color: #8e9aaf;
+		color: #54595F;
 		font-size: 26px;
+		margin: 10px;
 	}
 	
-	h4 {
-		color: #8e9aaf;
-		font-size: 22px;
+	a:link {
+		color: #30d3c0;
+	}
+		
+	a:visited {
+		color: #E4C461;
+	}
+	a:hover {
+		color: #ff6666;
+	}
+	a:active {
+		color: #E4C461;
+	}
+	
+	img {
+		margin: 0px 20px 0px 20px;
 	}
