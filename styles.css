@@ -11,44 +11,13 @@
 		margin: 60px;
 	}
 	
-	#li1 {
-		background-color: #FFFFFF;
+	.container {
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 20px 10px 20px;
 		font-size: 26px;
-		text-weight: bold;
-		list-style-type: none;
-		border: 1px solid #FFFFFF;
-		float: left;
-		margin: 10px 60px 20px 175px;
-		padding: 0px 10px 0px 10px;
-	}
-	#li2 {
-		background-color: #FFFFFF;
-		font-size: 26px;
-		list-style-type: none;
-		border: 1px solid #FFFFFF;
-		float: left;
-		margin: 10px 60px 20px 10px;
-		padding: 0px 10px 0px 10px;
-	}
-	#li3 {
-		background-color: #FFFFFF;
-		font-size: 26px;
-		list-style-type: none;
-		border: 1px solid #FFFFFF;
-		float: left;
-		margin: 10px 60px 20px 10px;
-		padding: 0px 10px 0px 10px;
-	}
-	#li4 {
-		background-color: #FFFFFF;
-		font-size: 26px;
-		list-style-type: none;
-		border: 1px solid #FFFFFF;
-		float: left;
-		margin: 10px 60px 20px 10px;
-		padding: 0px 10px 0px 10px;
-	}
-
+		font-weight: bold
+}
 	section, .highlight {
 		clear: left;
 		background-color: #FFFFFF;
@@ -75,22 +44,23 @@
 	}
 	
 	a:link {
-		color: #30d3c0;
+		color: #54595F;
 	}
 		
 	a:visited {
-		color: #E4C461;
+		color: #30d3c0;
 	}
 	a:hover {
 		color: #ff6666;
 	}
 	a:active {
-		color: #E4C461;
+		color: #30d3c0;
 	}
 	
 	img {
 		margin: 0px 20px 0px 20px;
 	}
+	
 	
 	
 	
